@@ -2,7 +2,7 @@ t411
 ====
 ### T411 API client
 
-A client for the T411 API that works both in node and the browser with [browserify](http://browserify.org).
+A client for the [T411 API](https://api.t411.io/) that works both in node and the browser with [browserify](http://browserify.org).
 
 Install
 -------
