@@ -1,0 +1,26 @@
+{
+  "name": "t411",
+  "version": "1.0.0",
+  "description": "T411 API client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thibauts",
+  "license": "MIT",
+  "dependencies": {
+    "concat-stream": "^1.4.8",
+    "superagent": "^1.2.0",
+    "typedarray-to-buffer": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thibauts/t411.git"
+  },
+  "keywords": [
+    "t411",
+    "torrent",
+    "api",
+    "client"
+  ]
+}
