@@ -1,4 +1,3 @@
-
 var request = require('superagent');
 var concat = require('concat-stream');
 var toBuffer = require('typedarray-to-buffer');
