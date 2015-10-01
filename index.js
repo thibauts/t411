@@ -2,7 +2,7 @@ var request = require('superagent');
 var concat = require('concat-stream');
 var toBuffer = require('typedarray-to-buffer');
 
-var API_HOST = 'api.t411.io';
+var API_HOST = 'api.t411.in';
 
 function Client() {
   this.uid = null;
