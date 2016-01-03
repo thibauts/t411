@@ -118,7 +118,7 @@ Client.prototype.search = function(query, options, callback) {
     options = {};
   }
 
-  this.get('/torrents/search/' + query, { query: options }, callback);
+  this.get('/torrents/search/' + query, options, callback);
 };
 
 
