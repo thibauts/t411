@@ -204,6 +204,9 @@ function responseHandler(callback) {
 
 request.parse['application/x-bittorrent'] = function(data) {
   // This is called when in the browser only
+  if(typeof window === 'undefined') {
+    return data;
+  }
   return toBuffer(new Uint8Array(data));
 };
 
