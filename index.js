@@ -122,6 +122,11 @@ Client.prototype.search = function(query, options, callback) {
 };
 
 
+Client.prototype.details = function(id, callback) {
+  this.get('/torrents/details/' + id, callback);
+};
+
+
 Client.prototype.download = function(id, callback) {
   return this.getBinary('/torrents/download/' + id, callback);
 };
